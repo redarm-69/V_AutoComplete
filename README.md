@@ -1,17 +1,17 @@
 # V_AutoComplete
 Vue AutoComplete 
 
-# Using : 
+Using : 
 
-Import
+# Import
     import V_AutoComplete from "./V_AutoComplete.vue";
 
-Components
+# Components
     components: {
       V_AutoComplete,
     },
 
-data
+# data
     data() {
         return {
             Rows: [],
@@ -19,7 +19,7 @@ data
         };
     },
     
-template
+# template
     <V_AutoComplete :items="Rows" v-model="SelectedValue"></V_AutoComplete>
 
 
