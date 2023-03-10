@@ -14,7 +14,7 @@ Using :
 # data
     data() {
         return {
-            Rows: [],
+            Rows: [ "value1", "value2" ],
             SelectedValue: "",
         };
     },
