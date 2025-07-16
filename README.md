@@ -10,13 +10,11 @@ Vue.js 自動完成輸入框元件/插件。
 - Lightweight and easy to use
 - Highly customizable suggestion list
 - Supports keyboard navigation
-- Debounced input for efficiency
 - Easy integration with external APIs or local data
 
 - 輕量且易於使用
 - 建議清單高度自訂化
 - 支援鍵盤操作
-- 輸入防抖（Debounce）設計
 - 可輕鬆串接外部 API 或本地資料
 
 ---
@@ -63,7 +61,6 @@ Vue.use(VAutoComplete)
 | suggestions    | Array     | List of suggestions           | suggestions | 陣列      | 建議清單         |
 | v-model        | String    | Selected value                | v-model     | 字串      | 選取的值         |
 | placeholder    | String    | Input placeholder             | placeholder | 字串      | 輸入框提示文字   |
-| debounce       | Number    | Debounce ms (default: 300)    | debounce    | 數字      | 防抖毫秒（預設300）|
 | ...            | ...       | ...                           | ...         | ...       | ...              |
 
 ---
